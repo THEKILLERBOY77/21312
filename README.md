@@ -13,22 +13,37 @@
 
 3. Примеры реализаций на разных языках программирования
 Бинарная куча
+
+Python:
 <img width="376" height="142" alt="image" src="https://github.com/user-attachments/assets/5ae23a82-2771-449c-80d2-94ec4717fa5e" />
+
+
 C++: 
 <img width="472" height="126" alt="image" src="https://github.com/user-attachments/assets/147d9153-a9ca-416a-a53a-183c95a89d81" />
+
+
+
 Java:
 <img width="633" height="84" alt="image" src="https://github.com/user-attachments/assets/4606b166-4053-4e91-b487-c2a26b099d47" />
+
 Биномиальная куча
+
 Самостоятельная реализация необходима во всех языках, включая создание узла и связей между ними.
+
 Куча Фибоначчи
+
 Требуется сложная ручная разработка сложных структур, состоящих из взаимосвязанных узлов.
 Хеш-таблицы
+
 Python: 
 <img width="297" height="111" alt="image" src="https://github.com/user-attachments/assets/a35b0930-01a3-44c6-8fec-54d71153bb9b" />
+
 C++: 
 <img width="380" height="105" alt="image" src="https://github.com/user-attachments/assets/ff756fde-fa8f-410c-84cf-ec04c00249e3" />
+
 Java: 
 <img width="454" height="121" alt="image" src="https://github.com/user-attachments/assets/e9fe0e96-fbc4-4f51-9669-7daa5727259f" />
+
 4. Заключение
 Структуры данных предоставляют эффективные способы решения различных задач обработки данных:
 
