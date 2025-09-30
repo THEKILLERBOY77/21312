@@ -4,7 +4,6 @@
 Кучи
 <img width="850" height="167" alt="image" src="https://github.com/user-attachments/assets/affdf300-ef4a-4658-a11e-06ed0f91fccf" />
 
-
 2. Структуры построения куч
 Тип кучи	Характеристика
 Бинарная	Одно дерево, простое управление
@@ -14,45 +13,22 @@
 
 3. Примеры реализаций на разных языках программирования
 Бинарная куча
-import heapq
-heap = []
-heapq.heapify([8, 3, 5, 1, 6, 2, 4, 7])
-heapq.heappush(heap, element)
-min_element = heapq.heappop(heap)
-
+<img width="376" height="142" alt="image" src="https://github.com/user-attachments/assets/5ae23a82-2771-449c-80d2-94ec4717fa5e" />
 C++: 
-#include <queue>
-#include <vector>
-std::priority_queue<int> heap;
-std::vector<int> vec = {8, 3, 5, 1, 6, 2, 4, 7};
-// Ручная реализация операций добавления и извлечения
+<img width="472" height="126" alt="image" src="https://github.com/user-attachments/assets/147d9153-a9ca-416a-a53a-183c95a89d81" />
 Java:
-import java.util.PriorityQueue;
-PriorityQueue<Integer> heap = new PriorityQueue<>();
-// Ручная реализация на основе массива с операциями вставки и извлечения
+<img width="633" height="84" alt="image" src="https://github.com/user-attachments/assets/4606b166-4053-4e91-b487-c2a26b099d47" />
 Биномиальная куча
 Самостоятельная реализация необходима во всех языках, включая создание узла и связей между ними.
-
 Куча Фибоначчи
 Требуется сложная ручная разработка сложных структур, состоящих из взаимосвязанных узлов.
-
 Хеш-таблицы
 Python: 
-hash_table = {}
-hash_table['Alice'] = 'January'
-value = hash_table.get('Alice')
-del hash_table['Bob']
+<img width="297" height="111" alt="image" src="https://github.com/user-attachments/assets/a35b0930-01a3-44c6-8fec-54d71153bb9b" />
 C++: 
-#include <unordered_map>
-std::unordered_map<std::string, int> umap;
-umap["Apple"] = 10;
-int value = umap["Apple"];
+<img width="380" height="105" alt="image" src="https://github.com/user-attachments/assets/ff756fde-fa8f-410c-84cf-ec04c00249e3" />
 Java: 
-import java.util.HashMap;
-HashMap<String, Integer> hashMap = new HashMap<>();
-hashMap.put("John", 25);
-Integer value = hashMap.get("John");
-hashMap.remove("Jim");
+<img width="454" height="121" alt="image" src="https://github.com/user-attachments/assets/e9fe0e96-fbc4-4f51-9669-7daa5727259f" />
 4. Заключение
 Структуры данных предоставляют эффективные способы решения различных задач обработки данных:
 
