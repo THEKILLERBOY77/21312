@@ -14,9 +14,22 @@
 
 3. Примеры реализаций на разных языках программирования
 Бинарная куча
-Python: Библиотека heapq упрощает создание и манипуляции с кучей (heap = [], heapq.heapify()).
-C++: Стандартная библиотека <queue> (priority_queue<int> heap).
-Java: Класс PriorityQueue (PriorityQueue<Integer> heap).
+import heapq
+heap = []
+heapq.heapify([8, 3, 5, 1, 6, 2, 4, 7])
+heapq.heappush(heap, element)
+min_element = heapq.heappop(heap)
+
+C++: 
+#include <queue>
+#include <vector>
+std::priority_queue<int> heap;
+std::vector<int> vec = {8, 3, 5, 1, 6, 2, 4, 7};
+// Ручная реализация операций добавления и извлечения
+Java:
+import java.util.PriorityQueue;
+PriorityQueue<Integer> heap = new PriorityQueue<>();
+// Ручная реализация на основе массива с операциями вставки и извлечения
 Биномиальная куча
 Самостоятельная реализация необходима во всех языках, включая создание узла и связей между ними.
 
@@ -24,9 +37,22 @@ Java: Класс PriorityQueue (PriorityQueue<Integer> heap).
 Требуется сложная ручная разработка сложных структур, состоящих из взаимосвязанных узлов.
 
 Хеш-таблицы
-Python: Ассоциативный массив (hash_table = {}).
-C++: Библиотека <unordered_map> (unordered_map<string, int> map).
-Java: Класс HashMap (HashMap<String, Integer> map).
+Python: 
+hash_table = {}
+hash_table['Alice'] = 'January'
+value = hash_table.get('Alice')
+del hash_table['Bob']
+C++: 
+#include <unordered_map>
+std::unordered_map<std::string, int> umap;
+umap["Apple"] = 10;
+int value = umap["Apple"];
+Java: 
+import java.util.HashMap;
+HashMap<String, Integer> hashMap = new HashMap<>();
+hashMap.put("John", 25);
+Integer value = hashMap.get("John");
+hashMap.remove("Jim");
 4. Заключение
 Структуры данных предоставляют эффективные способы решения различных задач обработки данных:
 
